@@ -2,7 +2,7 @@
 # Site settings
 title: Supply Chain Analytics
 description: Supply Chain Analytics with Modern Data Tools
-author: Your Name
+author: Mateen Majgaonkar
 baseurl: ""
 url: "https://mat9501.github.io"
 
@@ -16,9 +16,9 @@ plugins:
 
 # Author Settings
 author:
-  name: Your Name
+  name: Mateen Majgaonkar
   bio: Supply Chain Analytics Professional
-  location: Your Location
+  location: USA
 
 # Defaults
 defaults:
@@ -27,5 +27,5 @@ defaults:
       type: posts
     values:
       layout: post
-      author: Your Name
+      author: Mateen Majgaonkar
       comments: true
