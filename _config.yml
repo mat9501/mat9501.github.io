@@ -1,21 +1,24 @@
+
+# Site settings
 title: Supply Chain Analytics
-author: Mateen Majgaonkar
 description: Supply Chain Analytics with Modern Data Tools
-remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: "default"
-
-# Site Settings
-locale: "en-US"
-title_separator: "-"
-name: "Supply Chain Analytics with Modern Data Tools by Mateen Majgaonkar"
-url: "https://mat9501.github.io"
+author: Your Name
 baseurl: ""
+url: "https://mat9501.github.io"
 
-# Site Author
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Author Settings
 author:
-  name: "Mateen Majgaonkar"
-  bio: "Supply Chain Analytics Professional"
-  location: "U.S.A"
+  name: Your Name
+  bio: Supply Chain Analytics Professional
+  location: Your Location
 
 # Defaults
 defaults:
@@ -23,8 +26,6 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      toc: true
-      toc_sticky: true
+      layout: post
+      author: Your Name
+      comments: true
